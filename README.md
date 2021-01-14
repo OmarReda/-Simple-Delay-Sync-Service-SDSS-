@@ -1,7 +1,8 @@
 # Simple-Delay-Sync-Service-SDSS
+Computer Networks Course Project
 
 ## Intro 🚪
-Now That you understand how to use sockets, let's get a little bit deeper on how they work, we'll know how the kernel network stack deals with packets since we'll be rolling our own network stack to process ethernet (L2) packets.
+We'll know how the kernel network stack deals with packets since we'll be rolling our own network stack to process ethernet (L2) packets.
 Manipulating packets at this level is essential when building VPNs, virtualization technologies or implementing networking stacks for small embedded devices that can't support an operating system; Think about connected sensors, IoT devices and also devices in cars and so on.
 This is totally invisible to us in university since our eco system isn't enough developed yet, but things change fast and you should either be ready or drive that change. 
 
@@ -20,7 +21,6 @@ By the end of this project, you should be able to bind a UDP socket to the IP of
 <p align="center">
   <img src="https://github.com/OmarReda/Simple-Delay-Sync-Service-SDSS/blob/main/Diagram.png" width="600">
 </p>
-
 
 ## Testing your code
 You'll incrementally test the code depending on the layer you're implementing. Wireshark will still be useful.
